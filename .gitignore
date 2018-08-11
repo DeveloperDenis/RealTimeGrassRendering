@@ -1,0 +1,4 @@
+*.*~
+.vs/
+*.pdb
+build/*.obj
