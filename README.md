@@ -21,7 +21,7 @@ Finally, some animated GIFs to show off the wind simulation and some of the inte
 Nearly everything described in the paper has been implemented, the notable exceptions being the special textures (like density map and vegetation map) and the hierarchical structure for visibility testing.
 
 The following was implemented:
-- A configurable number of gras blades are generated once and instancing is used to draw the grass patch multiple times to form a larger field
+- A configurable number of grass blades are generated once and instancing is used to draw the grass patch multiple times to form a larger field
 - The scene is fully interactive, the user can pan the camera (left click and drag), zoom in or out (right click and drag vertically), and rotate the grass field (right click and drag horizontally)
 - There is a basic function that simulates wind which can be turned on or off by pressing the spacebar
 - The tessellation level of grass blades correspond to how close to the camera they are, blades beyond a fixed max distance are culled
